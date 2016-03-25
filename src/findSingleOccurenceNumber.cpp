@@ -14,7 +14,7 @@ NOTES:
 There are better ways of solving the problem than a brute-force solution which is of O(n^2)
 complexity .
 */
-#include<stdlib.h>
+#include<malloc.h>
 int findSingleOccurenceNumber(int *A, int len) {
 	if (A == nullptr) return -1;
 	if (len < 0) return -1;
